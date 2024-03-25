@@ -10,13 +10,14 @@ To run the application locally, follow these steps:
    ```bash
    git clone https://github.com/SohailSattar/Hacker-News-API-Best-News.git
    ```
-2. Navigate to the root directory of the project in your terminal.
-3. Run the following commands to build and run the application:
+2. Make sure you have the .NET 8.0 SDK installed. If not, you can download it from [here](https://dotnet.microsoft.com/download).
+3. Navigate to the root directory of the project in your terminal.
+5. Run the following commands to build and run the application:
    ```bash
    dotnet build
    dotnet run --project .\BestNews.API\BestNews.API.csproj
    ```
-4. The API will be accessible at [https://localhost:7185](https://localhost:7185/swagger/index.html) (or [http://localhost:5188](http://localhost:5188/swagger/index.html)). 
+5. The API will be accessible at [https://localhost:7185](https://localhost:7185/swagger/index.html) (or [http://localhost:5188](http://localhost:5188/swagger/index.html)). 
 
 
 ## Features
