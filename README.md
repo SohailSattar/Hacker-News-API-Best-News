@@ -10,7 +10,7 @@ To run the application locally, follow these steps:
    ```bash
    git clone https://github.com/SohailSattar/Hacker-News-API-Best-News.git
    ```
-2. Make sure you have the .NET 8.0 SDK installed. If not, you can download it from [here]([https://localhost:7185/swagger/index.html](https://dotnet.microsoft.com/download)).
+2. Make sure you have the .NET 8.0 SDK installed. If not, you can download it from [here](https://dotnet.microsoft.com/download).
 3. Navigate to the root directory of the project in your terminal.
 5. Run the following commands to build and run the application:
    ```bash
