@@ -17,13 +17,6 @@ builder.Services.AddHttpClient();
 
 builder.Services.ConfigureApplicationServices(builder.Configuration);
 
-
-//builder.Services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect("localhost"));
-//builder.Services.AddStackExchangeRedisCache(options =>
-//{
-//    options.Configuration = "localhost";
-//    options.InstanceName = "BestNewsInstance";
-//});
 builder.Services.AddDistributedMemoryCache();
 
 

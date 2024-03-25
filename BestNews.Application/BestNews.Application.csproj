@@ -7,8 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Constants\CacheKeys.cs" />
-    <Compile Remove="Constants\Client.cs" />
     <Compile Remove="Contracts\Services\IBestStoriesCacheService.cs" />
     <Compile Remove="Contracts\Services\IBestStoriesService.cs" />
     <Compile Remove="Contracts\Services\IHackerNewsAPIService__.cs" />
@@ -28,10 +26,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BestNews.Domain\BestNews.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Constants\" />
   </ItemGroup>
 
 </Project>
