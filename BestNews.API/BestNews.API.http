@@ -1,0 +1,6 @@
+@BestNews.API_HostAddress = http://localhost:5188
+
+GET {{BestNews.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
